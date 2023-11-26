@@ -17,7 +17,6 @@ RUN apk update && \
 # COPY requirements.txt .
 COPY ./analytics .
 RUN pip install -r requirements.txt
-
 # COPY . .
 
 CMD python app.py
