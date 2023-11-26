@@ -1,0 +1,9 @@
+README copy.md
+info.sh
+.DS_Store
+.python-version
+pyproject.toml
+analytics/__pycache__/
+analytics/.venv/
+cluster.yml
+nodegroup.yml
