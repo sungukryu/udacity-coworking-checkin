@@ -1,4 +1,5 @@
 README copy.md
-info.txt
+info.sh
 .github
 .DS_Store
+db/all-in-one.sql

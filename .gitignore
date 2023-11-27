@@ -7,3 +7,7 @@ analytics/__pycache__/
 analytics/.venv/
 cluster.yml
 nodegroup.yml
+cluster-trust-policy.json
+eks-connector-clusterrole.yaml
+node-role-trust-relationship.json
+db/all-in-one.sql
