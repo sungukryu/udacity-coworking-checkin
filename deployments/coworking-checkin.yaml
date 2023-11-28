@@ -30,8 +30,7 @@ spec:
       containers:
       - name: coworking-checkin-api
         image: 432255178055.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:latest
-        # image: localhost:5000/my-image
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /health_check
